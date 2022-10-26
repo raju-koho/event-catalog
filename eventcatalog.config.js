@@ -7,7 +7,7 @@ module.exports = {
   trailingSlash: true,
   primaryCTA: {
     label: 'Explore Events',
-    href: '/events'
+    href: '/event-catalog/events'
   },
   secondaryCTA: {
     label: 'Getting Started',
@@ -19,10 +19,10 @@ module.exports = {
     src: 'logo.svg',
   },
   footerLinks: [
-    { label: 'Events', href: '/events' },
-    { label: 'Services', href: '/services' },
-    { label: 'Visualiser', href: '/visualiser' },
-    { label: '3D Node Graph', href: '/overview' },
+    { label: 'Events', href: '/event-catalog/events' },
+    { label: 'Services', href: '/event-catalog/services' },
+    { label: 'Visualiser', href: '/event-catalog/visualiser' },
+    { label: '3D Node Graph', href: '/event-catalog/overview' },
     { label: 'GitHub', href: 'https://github.com/boyney123/eventcatalog-demo/edit/master' }
   ],
   users: [
